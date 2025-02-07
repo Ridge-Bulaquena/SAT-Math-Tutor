@@ -1,0 +1,125 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "topic": "Algebra",
+            "difficulty": "Easy",
+            "question": "If 2x + 5 = 13, what is the value of x?",
+            "options": ["3", "4", "5", "6"],
+            "correct_answer": "4",
+            "solution": "1. Subtract 5 from both sides: 2x = 8\n2. Divide both sides by 2: x = 4",
+            "explanation": "This is a basic linear equation. We isolate x by first subtracting 5 from both sides to get 2x = 8, then dividing both sides by 2 to get x = 4."
+        },
+        {
+            "id": 2,
+            "topic": "Geometry and Trigonometry",
+            "difficulty": "Medium",
+            "question": "In a right triangle, if one angle is 30° and the hypotenuse is 8 units, what is the length of the shortest side?",
+            "options": ["4", "8", "4√3", "4√2"],
+            "correct_answer": "4",
+            "solution": "1. In a 30-60-90 triangle:\n2. The shortest side (opposite to 30°) = hypotenuse × 0.5\n3. 8 × 0.5 = 4",
+            "explanation": "In a 30-60-90 triangle, the side opposite to the 30° angle is equal to half the length of the hypotenuse."
+        },
+        {
+            "id": 3,
+            "topic": "Advanced Math",
+            "difficulty": "Medium",
+            "question": "If f(x) = 2x² + 3x - 1, what is f(-2)?",
+            "options": ["3", "5", "-1", "1"],
+            "correct_answer": "5",
+            "solution": "1. Replace x with -2:\nf(-2) = 2(-2)² + 3(-2) - 1\n2. Simplify exponent: = 2(4) + (-6) - 1\n3. Multiply: = 8 - 6 - 1\n4. Add/subtract: = 5",
+            "explanation": "This question tests your ability to evaluate a quadratic function at a specific point by substituting the value and following order of operations."
+        },
+        {
+            "id": 4,
+            "topic": "Problem-Solving and Data Analysis",
+            "difficulty": "Easy",
+            "question": "The average (arithmetic mean) of five numbers is 10. If four of the numbers are 8, 12, 9, and 13, what is the fifth number?",
+            "options": ["6", "8", "10", "12"],
+            "correct_answer": "8",
+            "solution": "1. Sum of all five numbers = 10 × 5 = 50\n2. Sum of known numbers = 8 + 12 + 9 + 13 = 42\n3. Fifth number = 50 - 42 = 8",
+            "explanation": "When we know the mean and all but one value, we can find the missing value by working backwards from the definition of mean."
+        },
+        {
+            "id": 5,
+            "topic": "Problem-Solving and Data Analysis",
+            "difficulty": "Easy",
+            "question": "If you roll two fair six-sided dice, what is the probability of getting a sum of 7?",
+            "options": ["1/6", "1/12", "1/36", "6/36"],
+            "correct_answer": "6/36",
+            "solution": "1. Total possible outcomes: 6 × 6 = 36\n2. Ways to get sum of 7: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) = 6 ways\n3. Probability = 6/36 = 1/6",
+            "explanation": "The probability is the number of favorable outcomes divided by the total number of possible outcomes."
+        },
+        {
+            "id": 6,
+            "topic": "Advanced Math",
+            "difficulty": "Medium",
+            "question": "Which of the following is equivalent to (x + 2)(x - 3)?",
+            "options": ["x² - x - 6", "x² + x - 6", "x² - x + 6", "x² + x + 6"],
+            "correct_answer": "x² - x - 6",
+            "solution": "1. Use FOIL method:\n2. First terms: x × x = x²\n3. Outer terms: x × (-3) = -3x\n4. Inner terms: 2 × x = 2x\n5. Last terms: 2 × (-3) = -6\n6. Combine like terms: x² + (-3x + 2x) - 6 = x² - x - 6",
+            "explanation": "This problem tests polynomial multiplication and combining like terms."
+        },
+        {
+            "id": 7,
+            "topic": "Algebra",
+            "difficulty": "Easy",
+            "question": "Solve the equation: 3x - 4 = 8",
+            "options": ["3", "4", "5", "6"],
+            "correct_answer": "4",
+            "solution": "1. Add 4 to both sides: 3x = 12\n2. Divide both sides by 3: x = 4",
+            "explanation": "This is a basic linear equation where we isolate x by adding 4 to both sides and then dividing by 3."
+        },
+        {
+            "id": 8,
+            "topic": "Geometry and Trigonometry",
+            "difficulty": "Easy",
+            "question": "What is sin(90°)?",
+            "options": ["0", "1", "-1", "undefined"],
+            "correct_answer": "1",
+            "solution": "1. sin(90°) is the ratio of the opposite side to the hypotenuse\n2. At 90°, the opposite side equals the hypotenuse\n3. Therefore, sin(90°) = 1",
+            "explanation": "At a 90° angle, sin(90°) equals 1 because the opposite side and hypotenuse have the same length in this case."
+        },
+        {
+            "id": 9,
+            "topic": "Problem-Solving and Data Analysis",
+            "difficulty": "Medium",
+            "question": "A car travels 240 miles in 4 hours. At this rate, how many miles will it travel in 7 hours?",
+             "options": ["320", "420", "440", "460"],
+            "correct_answer": "420",
+            "solution": "1. Find the rate: 240 miles ÷ 4 hours = 60 miles per hour\n2. Multiply by new time: 60 × 7 = 420 miles",
+            "explanation": "This problem tests understanding of rates and proportional relationships."
+        },
+         {
+            "id": 10,
+            "topic": "Advanced Math",
+             "difficulty": "Easy",
+             "question": "What is the value of y when x = 2 in the equation y = x² - 3x + 1?",
+             "options": ["0", "-1", "1", "3"],
+            "correct_answer": "-1",
+            "solution": "1. Substitute x = 2 into the equation\n2. y = (2)² - 3(2) + 1\n3. y = 4 - 6 + 1\n4. y = -1",
+             "explanation": "This problem tests evaluation of quadratic expressions by substituting a value for x."
+         }
+    ,
+        {
+            "id": 11,
+            "topic": "Advanced Problem-Solving & Logic",
+            "difficulty": "Medium",
+            "question": "If a sequence follows the pattern where each number is the sum of the squares of its two preceding numbers, and the first two numbers are 1 and 2, what is the fourth number in the sequence?",
+            "options": ["25", "50", "85", "100"],
+            "correct_answer": "85",
+            "solution": "1. First number = 1\n2. Second number = 2\n3. Third number = 1² + 2² = 1 + 4 = 5\n4. Fourth number = 2² + 5² = 4 + 25 = 85",
+            "explanation": "This sequence requires understanding patterns and applying square operations sequentially."
+        },
+        {
+            "id": 12,
+            "topic": "Advanced Problem-Solving & Logic",
+            "difficulty": "Hard",
+            "question": "Three switches outside a room each control one of three lights inside the room. You can't see the lights when manipulating the switches, and you can only enter the room once. How many switches minimum do you need to toggle to determine which switch controls which light?",
+            "options": ["1", "2", "3", "4"],
+            "correct_answer": "2",
+            "solution": "1. Turn on switch 1 for several minutes\n2. Turn off switch 1 and turn on switch 2\n3. Enter room: Hot bulb = switch 1, On bulb = switch 2, Off bulb = switch 3",
+            "explanation": "This is a logic puzzle that tests deductive reasoning and problem-solving skills."
+        }
+    ]
+}
